@@ -1,10 +1,11 @@
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import c from "./Registration.module.css";
 
 export const Registration = () => (
     <div>
         <Form>
-            <Form.Group className="mb-3" controlId="formBasicName">
+            <Form.Group className="mb-4" controlId="formBasicName">
                 <Form.Control
                     className="form_control"
                     type="text"
@@ -12,7 +13,7 @@ export const Registration = () => (
                 />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPhone">
+            <Form.Group className="mb-4" controlId="formBasicPhone">
                 <Form.Control
                     className="form_control"
                     type="text"
@@ -20,7 +21,7 @@ export const Registration = () => (
                 />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Group className="mb-4" controlId="formBasicPassword">
                 <Form.Control
                     className="form_control"
                     type="password"
@@ -40,13 +41,25 @@ export const Registration = () => (
                 <Form.Check type="checkbox" label="Запомнить меня" />
             </Form.Group>
 
+            <div className={c.separator}>
+                <span>или</span>
+            </div>
+
+            <div className={c.socials_wrapper}>
+                <ul className={c.socials_list}>
+                    <li className={`${c.socials_item} ${c.fb}`}></li>
+                    <li className={`${c.socials_item} ${c.google}`}></li>
+                    <li className={`${c.socials_item} ${c.apple}`}></li>
+                    <li className={`${c.socials_item} ${c.inst}`}></li>
+                </ul>
+            </div>
+
             <Button
-                className="d-flex m-auto"
+                className="form-button d-flex"
                 variant="primary"
-                type="submit"
-                style={{ width: "50%", justifyContent: "center" }}
+                type="button"
             >
-                Submit
+                Зарегистрироваться
             </Button>
         </Form>
     </div>
