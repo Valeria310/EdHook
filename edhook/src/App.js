@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Registration } from "./Pages/Registration/Registration";
 import { WelcomePage } from "./Pages/WelcomePage/WelcomePage";
 import { MainPage } from "./Pages/MainPage/MainPage";
@@ -8,11 +8,12 @@ import "./App.css";
 export const App = () => (
     <div className="container">
         {/* <Registration /> */}
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
-                <Route path="/registration" element={<WelcomePage />} />
+                <Route path="/registration" element={<Registration />} />
+
                 <Route path="/" element={<MainPage />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </div>
 );
