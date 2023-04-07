@@ -1,9 +1,9 @@
 import "./Avatar.css";
 
 export const Avatar = (props) => {
-  return (
-    <div className={`avatar ${props.classname}`}>
-      <img className="avatar-img" src={props.src} alt="avatar" />
-    </div>
-  );
+    let img;
+    if (props.src) {
+        img = <img className="avatar-img" src={props.src} alt="avatar" />;
+    }
+    return <div className={`avatar ${props.classname}`}>{img}</div>;
 };

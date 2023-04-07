@@ -8,20 +8,20 @@ import "./App.css";
 import { GroupPage } from "./Pages/GroupPage/GroupPage";
 
 export const App = () => {
-  document.onload = () => {
-    console.log("aaa");
-  };
-  return (
-    <div className="container">
-      <HashRouter>
-        <Routes>
-          <Route path="/welcome" element={<WelcomePage />} />
-          <Route path="/roles" element={<RolePage />} />
-          <Route path="/registration" element={<Registration />} />
-          <Route path="/group" element={<GroupPage />} />
-          <Route path="/" element={<MainPage />} />
-        </Routes>
-      </HashRouter>
-    </div>
-  );
+    document.onload = () => {
+        console.log("aaa");
+    };
+    return (
+        <div className="container">
+            <HashRouter>
+                <Routes>
+                    <Route path="/welcome" element={<WelcomePage />} />
+                    <Route path="/roles" element={<RolePage />} />
+                    <Route path="/registration" element={<Registration />} />
+                    <Route path="/group" element={<GroupPage />} />
+                    <Route path="/" element={<MainPage />} />
+                </Routes>
+            </HashRouter>
+        </div>
+    );
 };

@@ -1,20 +1,55 @@
 .group_info {
-  display: flex;
-  gap: 2rem;
+    display: flex;
+    gap: 2rem;
 }
 
 .name {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 39px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
 }
 
 .specialization {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 23px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.add_user {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.add_btn_icon {
+    background-image: url("../../assets/icons/add.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 80%;
+    height: 80%;
+}
+
+.participants_list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.user_list {
+    overflow: scroll;
+    height: 96px;
+    gap: 2rem;
+    display: flex;
+    align-items: flex-end;
 }
