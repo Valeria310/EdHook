@@ -1,0 +1,14 @@
+.create_message {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+}
+.add_btn {
+  background-image: url("../../assets/icons/add.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 32px;
+  outline: none;
+  margin-right: 1rem;
+}
