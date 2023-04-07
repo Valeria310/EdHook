@@ -3,6 +3,25 @@ ul {
     margin: 0;
 }
 
+h1 {
+    font-family: "Oi";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 51px;
+    color: #ff4f5a;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #070707;
+}
+
 .form_control {
     border: none;
     border-bottom: 1px solid #242424;
@@ -35,7 +54,26 @@ ul {
     border-color: #242424;
 }
 
-.form-button {
+.white-button {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #020202;
+    background: #ffffff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 340px;
+    height: 50px;
+}
+
+.pink-button {
+    font-family: "Inter";
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -49,4 +87,5 @@ ul {
     background-color: #ff4f5a;
     border: none;
     margin: 0 auto;
+    border-radius: 10px;
 }

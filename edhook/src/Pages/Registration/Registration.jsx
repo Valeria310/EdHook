@@ -1,6 +1,6 @@
-import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import c from "./Registration.module.css";
+import { Btn } from "../../Components/Button/Btn";
 
 export const Registration = () => (
     <div>
@@ -54,13 +54,7 @@ export const Registration = () => (
                 </ul>
             </div>
 
-            <Button
-                className="form-button d-flex"
-                variant="primary"
-                type="button"
-            >
-                Зарегистрироваться
-            </Button>
+            <Btn classname="pink-button" text="Зарегистрироваться" />
         </Form>
     </div>
 );
