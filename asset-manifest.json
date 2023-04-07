@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/EdHook/static/css/main.bc948df2.css",
-    "main.js": "/EdHook/static/js/main.610e7bfc.js",
+    "main.css": "/EdHook/static/css/main.e195f7d9.css",
+    "main.js": "/EdHook/static/js/main.60bbc4e5.js",
+    "static/media/student.png": "/EdHook/static/media/student.f6c88da6d8a66f413a1b.png",
+    "static/media/coach.png": "/EdHook/static/media/coach.78334156f3fbb2be9e4e.png",
+    "static/media/u_instagram.svg": "/EdHook/static/media/u_instagram.2748c391392506de1431.svg",
+    "static/media/u_google.svg": "/EdHook/static/media/u_google.e340f11d7457010db3ed.svg",
+    "static/media/u_apple-alt.svg": "/EdHook/static/media/u_apple-alt.d5aa91c1b3ae226be1a9.svg",
     "index.html": "/EdHook/index.html",
-    "main.bc948df2.css.map": "/EdHook/static/css/main.bc948df2.css.map",
-    "main.610e7bfc.js.map": "/EdHook/static/js/main.610e7bfc.js.map"
+    "static/media/u_facebook-f.svg": "/EdHook/static/media/u_facebook-f.581d5fd59a377a3a867e.svg",
+    "main.e195f7d9.css.map": "/EdHook/static/css/main.e195f7d9.css.map",
+    "main.60bbc4e5.js.map": "/EdHook/static/js/main.60bbc4e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc948df2.css",
-    "static/js/main.610e7bfc.js"
+    "static/css/main.e195f7d9.css",
+    "static/js/main.60bbc4e5.js"
   ]
 }
