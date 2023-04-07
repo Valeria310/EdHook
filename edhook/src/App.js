@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Registration } from "./Pages/Registration/Registration";
 import { MainPage } from "./Pages/MainPage/MainPage";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 export const App = () => (
     <div className="container">
