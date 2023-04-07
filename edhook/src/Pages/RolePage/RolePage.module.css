@@ -1,0 +1,68 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.text_wrapper {
+    margin: 0 auto;
+}
+
+.roles_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+}
+
+.coach,
+.student {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.coach:hover,
+.student:hover {
+    transform: scale(1.1);
+}
+
+.coach img {
+    width: 177px;
+    height: 152px;
+}
+
+.student img {
+    width: 146px;
+    height: 135px;
+}
+
+.coach {
+    height: 176px;
+    align-items: flex-end;
+}
+
+.student {
+    height: 165px;
+    margin-top: 2rem;
+    align-items: flex-start;
+}
+
+.coach p,
+.student p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #242424;
+}
+
+.coach p {
+    margin-right: 12px;
+}
+
+.student p {
+    margin-left: 14px;
+}

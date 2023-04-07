@@ -6,6 +6,7 @@ export const Btn = (props) => {
             className={`d-flex ${props.classname}`}
             variant="primary"
             type="button"
+            onClick={props.onclick}
         >
             {props.text}
         </Button>
