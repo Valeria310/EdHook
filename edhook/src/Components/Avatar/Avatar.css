@@ -24,7 +24,8 @@
     width: 71px;
     height: 71px;
     border-radius: 0;
-    
+}
+
 .avatar.participant {
     overflow: hidden;
     border-radius: 50%;
