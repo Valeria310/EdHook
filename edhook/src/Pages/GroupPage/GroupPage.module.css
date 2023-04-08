@@ -29,6 +29,7 @@
     justify-content: center;
     align-items: center;
     flex: 0 0 auto;
+    background: transparent;
 }
 
 .add_btn_icon {
@@ -44,12 +45,17 @@
     display: flex;
     align-items: center;
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 .user_list {
-    overflow: scroll;
+    overflow: auto;
     height: 96px;
     gap: 2rem;
     display: flex;
     align-items: flex-end;
+}
+
+.user_list::-webkit-scrollbar {
+    display: none;
 }

@@ -1,0 +1,64 @@
+.schedule {
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.table-header {
+    border: 1px solid black;
+    border-radius: 8px 8px 0 0;
+    height: 30px;
+}
+.table-main {
+    display: flex;
+}
+.table-dates {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.table-dates::-webkit-scrollbar {
+    display: none;
+}
+.table-payment {
+    flex: 0 0 auto;
+}
+.student-name-item {
+    height: 30px;
+    width: 120px;
+    overflow: auto;
+}
+.dates-list {
+    display: flex;
+    width: 100%;
+}
+.day-cell {
+    flex: 1 1 auto;
+    height: 30px;
+    min-width: 30px;
+}
+.trains-list {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.train-cell-list {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+.train-cell {
+    height: 30px;
+    width: 30px;
+    flex: 1 1 auto;
+}
+.payment-item {
+    height: 30px;
+    width: 60px;
+}
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}

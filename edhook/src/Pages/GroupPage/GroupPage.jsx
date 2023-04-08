@@ -1,7 +1,9 @@
 import { Avatar } from "../../Components/Avatar/Avatar";
+import { Chat } from "../../Components/Chat/Chat";
 import { NewNotification } from "../../Components/NewNotification/NewNotification";
 import { Notification } from "../../Components/Notification/Notification";
 import { ParticipantItem } from "../../Components/ParticipantItem/ParticipantItem";
+import { Schedule } from "../../Components/Schedule/Schedule";
 import style from "./GroupPage.module.css";
 
 export const GroupPage = () => {
@@ -30,6 +32,8 @@ export const GroupPage = () => {
                     <ParticipantItem number={2} name={"Анна"}></ParticipantItem>
                 </ul>
             </div>
+            <Schedule></Schedule>
+            <Chat></Chat>
             {/* calendar */}
         </div>
     );
