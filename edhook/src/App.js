@@ -6,6 +6,7 @@ import { RolePage } from "./Pages/RolePage/RolePage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { GroupPage } from "./Pages/GroupPage/GroupPage";
+import { StudentPage } from "./Pages/StudentPage/StudentPage";
 
 export const App = () => {
     return (
@@ -17,6 +18,7 @@ export const App = () => {
                     <Route path="/registration" element={<Registration />} />
                     <Route path="/group" element={<GroupPage />} />
                     <Route path="/profile" element={<Profile />} />
+                    <Route path="/student" element={<StudentPage />} />
                 </Routes>
             </HashRouter>
         </div>
