@@ -34,6 +34,10 @@ h2 {
     color: #070707;
 }
 
+h3 {
+    margin: 0;
+}
+
 .form_control {
     border: none;
     border-bottom: 1px solid #242424;
@@ -100,4 +104,13 @@ h2 {
     border: none;
     margin: 0 auto;
     border-radius: 10px;
+}
+
+.white {
+    border: 1px solid #070707;
+}
+
+.red {
+    background: #ff4f5a;
+    border: none;
 }

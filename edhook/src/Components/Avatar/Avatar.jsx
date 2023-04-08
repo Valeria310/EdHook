@@ -5,5 +5,13 @@ export const Avatar = (props) => {
     if (props.src) {
         img = <img className="avatar-img" src={props.src} alt="avatar" />;
     }
-    return <div className={`avatar ${props.classname}`}>{img}</div>;
+
+    return (
+        <div
+            className={`avatar ${props.classname}`}
+            style={{ backgroundColor: props.color }}
+        >
+            {img}
+        </div>
+    );
 };
