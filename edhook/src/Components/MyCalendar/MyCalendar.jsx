@@ -13,7 +13,7 @@ export const MyCalendar = () => {
             <Calendar
                 value={value}
                 locale={"ru-Ru"}
-                // onChange={(d) => setValue(d)}
+                onChange={(d) => setValue(d)}
             />
         </div>
     );
