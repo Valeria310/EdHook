@@ -1,0 +1,11 @@
+.btn {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-image: url(../../assets/icons/add.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    border: 1px solid #070707;
+    background-color: transparent;
+}

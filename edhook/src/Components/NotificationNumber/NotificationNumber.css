@@ -1,15 +1,16 @@
 .notif_circle {
-  width: 42px;
-  height: 42px;
-  border: 1px solid #ff0505;
-  color: #ff0505;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 21px;
+    background-color: #ffffff;
+    width: 42px;
+    height: 42px;
+    border: 1px solid #ff0505;
+    color: #ff0505;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
 }
