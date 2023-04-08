@@ -12,7 +12,7 @@ export const ReceivedMsg = (props) => {
     }
     return (
         <div className={style.msg}>
-            <Avatar classname={"chat"}></Avatar>
+            <Avatar classname={"chat"} src={props.avatar}></Avatar>
             <div className={style.msg_block}>
                 <p className={style.msg_sender}>{props.sender}</p>
                 <ul className={style.msg_list}>{msgList}</ul>

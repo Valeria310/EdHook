@@ -11,6 +11,7 @@
 .avatar.group {
     overflow: hidden;
     border-radius: 50%;
+    border: 1px solid black;
 }
 
 .avatar.group_img {
@@ -18,6 +19,7 @@
     height: 42px;
     overflow: hidden;
     border-radius: 50%;
+    border: 1px solid black;
 }
 
 .avatar.coach {
@@ -31,6 +33,7 @@
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    border: 1px solid black;
 }
 
 .avatar.chat {
@@ -39,4 +42,5 @@
     flex: 0 0 auto;
     width: 42px;
     height: 42px;
+    border: 1px solid black;
 }

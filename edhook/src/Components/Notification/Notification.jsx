@@ -9,7 +9,7 @@ export const Notification = (props) => {
                 <p className="sender">{props.sender}</p>
             </div>
             <div className="notification_main">
-                <p className="notification_topic">Изменения в расписании</p>
+                <p className="notification_topic">Изменение в расписании</p>
                 <p className="notification_message">
                     Перенесено занятие по английскому языку с 26.03.2023 12:00 на 04.04.2023 в 12:00
                 </p>

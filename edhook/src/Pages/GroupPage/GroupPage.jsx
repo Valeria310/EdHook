@@ -12,7 +12,7 @@ export const GroupPage = () => {
             <div className={style.group_info}>
                 <Avatar src={require("../../assets/groupAvatar.png")} classname="group" />
                 <div className={style.info}>
-                    <p className={style.name}>0001</p>
+                    <p className={style.name}>Группа 1</p>
                     <ul className={style.details}>
                         <li className={style.specialization}>Специализация</li>
                     </ul>
@@ -25,16 +25,33 @@ export const GroupPage = () => {
                     <span className={style.add_btn_icon}></span>
                 </button>
                 <ul className={style.user_list}>
-                    <ParticipantItem number={1} name={"Анна"}></ParticipantItem>
-                    <ParticipantItem name={"Дарья"}></ParticipantItem>
-                    <ParticipantItem number={4} name={"Иван"}></ParticipantItem>
-                    <ParticipantItem name={"Анна"}></ParticipantItem>
-                    <ParticipantItem number={2} name={"Анна"}></ParticipantItem>
+                    <ParticipantItem
+                        number={1}
+                        name={"Анна"}
+                        avatar={require("../../assets/images/IMG_2396.JPG")}
+                    ></ParticipantItem>
+                    <ParticipantItem
+                        name={"Дарья"}
+                        avatar={require("../../assets/images/IMG_1920.JPG")}
+                    ></ParticipantItem>
+                    <ParticipantItem
+                        number={4}
+                        name={"Иван"}
+                        avatar={require("../../assets/images/IMG_0589.JPG")}
+                    ></ParticipantItem>
+                    <ParticipantItem
+                        name={"Анна"}
+                        avatar={require("../../assets/images/IMG_2353.JPG")}
+                    ></ParticipantItem>
+                    <ParticipantItem
+                        number={2}
+                        name={"Анна"}
+                        avatar={require("../../assets/images/IMG_2396.JPG")}
+                    ></ParticipantItem>
                 </ul>
             </div>
             <Schedule></Schedule>
             <Chat></Chat>
-            {/* calendar */}
         </div>
     );
 };

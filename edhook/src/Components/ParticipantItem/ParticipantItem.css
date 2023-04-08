@@ -4,3 +4,9 @@
     flex-direction: column;
     align-items: center;
 }
+
+.badge_container {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}

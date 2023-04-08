@@ -9,7 +9,7 @@ export const ParticipantItem = (props) => {
     }
     return (
         <li className="user_item">
-            {badge}
+            <div className="badge_container">{badge}</div>
             <Avatar classname={"participant"} src={props.avatar}></Avatar>
             <p className="user_name">{props.name}</p>
         </li>

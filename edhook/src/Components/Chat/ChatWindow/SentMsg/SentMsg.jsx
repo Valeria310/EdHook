@@ -15,7 +15,7 @@ export const SentMsg = (props) => {
             <div className={style.msg_block}>
                 <ul className={style.msg_list}>{msgList}</ul>
             </div>
-            <Avatar classname={"chat"}></Avatar>
+            <Avatar classname={"chat"} src={props.avatar}></Avatar>
         </div>
     );
 };
