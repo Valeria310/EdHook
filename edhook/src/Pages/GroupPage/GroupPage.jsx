@@ -7,6 +7,7 @@ import { Schedule } from "../../Components/Schedule/Schedule";
 import style from "./GroupPage.module.css";
 
 export const GroupPage = () => {
+    const students = ["Анна Иванова", "Дарья Пугач", "Иван Тур", "Ольга Иванова", "Яна Иванова", "Павел Павлов"];
     const handleClick = () => {
         window.location.hash = "/student";
     };
@@ -54,7 +55,7 @@ export const GroupPage = () => {
                     ></ParticipantItem>
                 </ul>
             </div>
-            <Schedule></Schedule>
+            <Schedule students={students} type={"ФИО"}></Schedule>
             <Chat></Chat>
         </div>
     );

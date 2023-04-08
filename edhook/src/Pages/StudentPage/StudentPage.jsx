@@ -5,6 +5,7 @@ import { Schedule } from "../../Components/Schedule/Schedule";
 import style from "./StudentPage.module.css";
 
 export const StudentPage = () => {
+    const students = ["Март", "Апрель", "Май", "Июнь", "Июль", "Август"];
     const handleClick = () => {
         window.location.hash = "/student";
     };
@@ -37,7 +38,7 @@ export const StudentPage = () => {
             </ul>
             <Notification dest={"Группа 1"} sender={"Валентина Машкова"} />
             <div className={style.spread}></div>
-            <Schedule></Schedule>
+            <Schedule students={students} type={"Месяц"}></Schedule>
             <Chat></Chat>
         </div>
     );
