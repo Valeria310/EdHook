@@ -5,6 +5,7 @@ import c from "./Profile.module.css";
 import { NotificationNumber } from "./../../Components/NotificationNumber/NotificationNumber";
 import { CoachNotidication } from "./../../Components/CoachNotification/CoachNotification";
 import { Note } from "./../../Components/Note/Note";
+import { MyCalendar } from "../../Components/MyCalendar/MyCalendar";
 
 export const Profile = () => {
     return (
@@ -81,6 +82,7 @@ export const Profile = () => {
                     />
                 </ul>
             </div>
+            <MyCalendar />
             <div className={c.notes}>
                 <div className={c.notes_info}>
                     <h3 className={c.notes_title}>Заметки</h3>
