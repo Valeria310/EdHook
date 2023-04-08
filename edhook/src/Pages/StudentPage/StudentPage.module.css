@@ -1,0 +1,93 @@
+.group_info {
+    display: flex;
+    gap: 2rem;
+}
+.contacts_list {
+    margin-top: 2rem;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+.contact_item {
+    display: flex;
+    justify-content: space-between;
+}
+.contact_btn {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 30px;
+    height: 30px;
+}
+.sms_btn {
+    background-image: url("../../assets/icons/u_comment-alt-download.svg");
+}
+.call_btn {
+    background-image: url("../../assets/icons/u_phone.svg");
+}
+.mail_btn {
+    background-image: url("../../assets/icons/u_envelope-alt.svg");
+}
+.name {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.spread {
+    height: 2rem;
+}
+
+.specialization {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.add_user {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    background: transparent;
+}
+
+.add_btn_icon {
+    background-image: url("../../assets/icons/add.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 80%;
+    height: 80%;
+}
+
+.participants_list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.user_list {
+    overflow: auto;
+    height: 96px;
+    gap: 2rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.user_list::-webkit-scrollbar {
+    display: none;
+}
