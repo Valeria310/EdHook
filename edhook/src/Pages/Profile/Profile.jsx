@@ -8,9 +8,12 @@ import { Note } from "./../../Components/Note/Note";
 import { MyCalendar } from "../../Components/MyCalendar/MyCalendar";
 
 export const Profile = () => {
+    const handleClick = () => {
+        window.location.hash = "/group";
+    };
     return (
         <div>
-            <div className={c.main_info}>
+            <div id="main_info" className={c.main_info}>
                 <Avatar
                     src={require("../../assets/images/IMG_2396.JPG")}
                     classname="coach"
@@ -26,6 +29,7 @@ export const Profile = () => {
             </div>
             <ul className={c.group_list}>
                 <GroupItem
+                    onclick={handleClick}
                     groupName="Гуппа 1"
                     schedule={["Пн", "Ср"]}
                     number="3"

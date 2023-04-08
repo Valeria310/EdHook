@@ -11,6 +11,10 @@ input {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 p {
     margin: 0;
 }

@@ -8,7 +8,7 @@ export const GroupItem = (props) => {
         badge = <NotificationNumber number={props.number} />;
     }
     return (
-        <li className={c.item}>
+        <li className={c.item} onClick={props.onclick}>
             <div className={c.item_content}>
                 <Avatar color={props.color} classname="group_img" />
                 <h3 className={c.group_name}>{props.groupName}</h3>
