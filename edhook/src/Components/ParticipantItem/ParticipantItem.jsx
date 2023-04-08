@@ -8,7 +8,7 @@ export const ParticipantItem = (props) => {
         badge = <NotificationNumber number={props.number} />;
     }
     return (
-        <li className="user_item">
+        <li className="user_item" onClick={props.onclick}>
             <div className="badge_container">{badge}</div>
             <Avatar classname={"participant"} src={props.avatar}></Avatar>
             <p className="user_name">{props.name}</p>

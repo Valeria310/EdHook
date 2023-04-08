@@ -7,6 +7,9 @@ import { Schedule } from "../../Components/Schedule/Schedule";
 import style from "./GroupPage.module.css";
 
 export const GroupPage = () => {
+    const handleClick = () => {
+        window.location.hash = "/student";
+    };
     return (
         <div>
             <div className={style.group_info}>
@@ -29,6 +32,7 @@ export const GroupPage = () => {
                         number={1}
                         name={"Анна"}
                         avatar={require("../../assets/images/IMG_2396.JPG")}
+                        onclick={handleClick}
                     ></ParticipantItem>
                     <ParticipantItem
                         name={"Дарья"}
