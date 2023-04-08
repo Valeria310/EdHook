@@ -1,0 +1,102 @@
+.note {
+    border: 1px solid #070707;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.note_title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.bookmark {
+    width: 20px;
+    height: 20px;
+    background-image: url(../../assets/icons/u_bookmark-full.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bookmark_new {
+    width: 20px;
+    height: 20px;
+    background-image: url(../../assets/icons/u_bookmark-full.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.textarea {
+    width: 100%;
+    resize: none;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    outline: none;
+}
+
+.textarea::placeholder {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(7, 7, 7, 0.5);
+}
+
+.icons_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.paperclip,
+.link,
+.microphone {
+    width: 22px;
+    height: 22px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.paperclip {
+    background-image: url(../../assets/icons/fi_paperclip.svg);
+}
+
+.link {
+    background-image: url(../../assets/icons/fi_link.svg);
+}
+
+.microphone {
+    background-image: url(../../assets/icons/u_microphone.svg);
+}
+
+.title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.title_new {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(7, 7, 7, 0.5);
+}

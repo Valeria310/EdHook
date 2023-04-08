@@ -1,0 +1,28 @@
+.notification_wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.indicator {
+    width: 10px;
+    height: 42px;
+    border-radius: 4px;
+}
+
+.title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #070707;
+}
+
+.text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    color: #070707;
+}
