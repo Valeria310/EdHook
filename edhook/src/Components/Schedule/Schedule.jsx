@@ -2,7 +2,7 @@ import "./Schedule.css";
 
 export const Schedule = (props) => {
     //
-    const students = Array(6).fill("Anna Ivanova");
+    const students = props.students;
     const studentsList = Array(6);
     for (let i = 0; i < students.length; i++) {
         studentsList[i] = (
@@ -43,7 +43,7 @@ export const Schedule = (props) => {
             <div className="table-main">
                 <div className="table-names">
                     <ul className="schedule-student-list">
-                        <li className="student-name-item cell">ФИО</li>
+                        <li className="student-name-item cell">{props.type}</li>
                         {studentsList}
                     </ul>
                 </div>
