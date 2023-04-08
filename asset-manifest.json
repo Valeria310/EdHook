@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EdHook/static/css/main.05f72e76.css",
-    "main.js": "/EdHook/static/js/main.3782b9ce.js",
+    "main.css": "/EdHook/static/css/main.8176a423.css",
+    "main.js": "/EdHook/static/js/main.520c0213.js",
     "static/media/IMG_2353.JPG": "/EdHook/static/media/IMG_2353.9fb38bffce053d4f2b65.JPG",
     "static/media/IMG_2396.JPG": "/EdHook/static/media/IMG_2396.8d07192750e350f784f3.JPG",
     "static/media/IMG_1920.JPG": "/EdHook/static/media/IMG_1920.64546b2f1d518d4a1947.JPG",
@@ -23,11 +23,11 @@
     "static/media/fi_anchor.svg": "/EdHook/static/media/fi_anchor.acea1c6d861874a281b0.svg",
     "static/media/u_facebook-f.svg": "/EdHook/static/media/u_facebook-f.581d5fd59a377a3a867e.svg",
     "static/media/add.svg": "/EdHook/static/media/add.c8b39a336d92d4c5c69f.svg",
-    "main.05f72e76.css.map": "/EdHook/static/css/main.05f72e76.css.map",
-    "main.3782b9ce.js.map": "/EdHook/static/js/main.3782b9ce.js.map"
+    "main.8176a423.css.map": "/EdHook/static/css/main.8176a423.css.map",
+    "main.520c0213.js.map": "/EdHook/static/js/main.520c0213.js.map"
   },
   "entrypoints": [
-    "static/css/main.05f72e76.css",
-    "static/js/main.3782b9ce.js"
+    "static/css/main.8176a423.css",
+    "static/js/main.520c0213.js"
   ]
 }
