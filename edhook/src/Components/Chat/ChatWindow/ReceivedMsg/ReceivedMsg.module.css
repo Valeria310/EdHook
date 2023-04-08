@@ -1,0 +1,25 @@
+.msg {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    padding: 2rem 0.5rem;
+}
+.msg_list {
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.msg_block {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.msg_item {
+    word-wrap: break-word;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    padding: 4px;
+    margin-bottom: 4px;
+    max-width: 80%;
+}

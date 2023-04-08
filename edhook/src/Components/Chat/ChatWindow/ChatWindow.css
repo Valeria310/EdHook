@@ -1,0 +1,8 @@
+.chat-window {
+    max-height: 360px;
+    overflow: auto;
+}
+
+.chat-window::-webkit-scrollbar {
+    display: none;
+}

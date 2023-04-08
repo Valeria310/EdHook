@@ -4,9 +4,9 @@
     flex-direction: column;
     align-items: center;
 }
-.notif_circle {
+/* .notif_circle {
     position: absolute;
     z-index: 2;
     right: -20px;
     top: -20px;
-}
+} */

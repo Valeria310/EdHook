@@ -1,0 +1,31 @@
+.new-message {
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    gap: 0.5rem;
+    padding: 12px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+}
+.attach-btn,
+.smile-btn,
+.voice-btn {
+    background-color: transparent;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 2rem;
+    width: 2rem;
+}
+.attach-btn {
+    background-image: url("../../../assets/icons/fi_paperclip.svg");
+}
+.smile-btn {
+    background-image: url("../../../assets/icons/Vector.svg");
+}
+.voice-btn {
+    background-image: url("../../../assets/icons/u_microphone.svg");
+}
